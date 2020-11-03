@@ -1,3 +1,4 @@
+/*------------------------------------------Common par start----------------------------------------------------------*/
 *{box-sizing: border-box}
 
 body{
@@ -43,6 +44,18 @@ body{
 .big-footer-height  {height: 250px;}
 .footer-height      {height: 30px; }
 
+p{
+    color: #555;
+    /*text-align: justify;*/
+}
+h4{
+    color: #555;
+}
+
+
+/*---------------------------------------COMMON PART End--------------------------------------------------------------*/
+
+/*-------------------------------------------first section for headin and Container Start-----------------------------*/
 
 .ContentHeading{
     font-size: 50px;
@@ -70,15 +83,30 @@ body{
     display: block;
     /*border: 1px solid green;*/
 
-
 }
-p{
+
+.categoryTitle{
     color: #555;
-    /*text-align: justify;*/
+    text-align: center;
+    position: relative;
+    padding:30px;
+    transition: .5s;
 }
+.categoryTitle:hover{
+    transform: translateY(-5px);
+}
+.categoryTitle:after{
+    content: ' ';
+    background: #ff523d;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 
-
-
+}
 .imageForContainer{
     width: 100%;
     height: 100%;
@@ -100,11 +128,11 @@ p{
 .btn-Container:hover{
  background: #563434;
 }
-.section1{
+.section1a{
 
     background: radial-gradient(#fff,#ffd6d6);
 }
-.section2{
+.section1b{
     padding-top: 40px;
     background: radial-gradient(#fff,#ffd6d6);
 }
@@ -117,9 +145,11 @@ p{
     width: 30px;
     float: right;
 }
-/*End Of first Section*/
+/*----------------------------------------first section for headin and Container END---------------------------- -----*/
 
-/*Starting of Second Section Cetagory*/
+/*---------------------------------------Second Section Cetagory and Features Product Start---------------------------*/
+/* 2.1 Catagory Product Start */
+
 .cetagoryImageResize{
     padding: 5px;
     width: 100%;
@@ -135,3 +165,59 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
+/*2.1 Catagory Product End*/
+
+.headingTagFeatureTitle{
+    text-align: center;
+    color: #555;
+    position: relative;
+    padding: 30px;
+    transition: .5s;
+}
+.headingTagFeatureTitle:hover{
+    transform: translateY(-5px);
+}
+.headingTagFeatureTitle:after{
+    content: ' ';
+    background: #ff523d;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.featureProductImageResizing{
+    width: 100%;
+    padding: 5px;
+
+}
+.imageHover{
+    transition: .5s;
+}
+.imageHover:hover{
+    transform: translateY(5px);
+
+}
+.positaioningImageForFeatured{
+    padding: 25px;
+    max-width: 1080px;
+    margin: auto;
+
+}
+
+
+.FeatureProduct{
+    padding: 5px;
+}
+
+.reating{
+    color: #ff523d;
+}
+
+
+
+
+/*----------------------------------------Second Section Cetagory and Features Product End----------------------------*/
