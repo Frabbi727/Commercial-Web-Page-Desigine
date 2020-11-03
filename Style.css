@@ -32,7 +32,7 @@ body{
 }
 .container{
     height: auto;
-    width: 100%;
+    width: 90%;
     margin: auto;
 
 }
@@ -182,7 +182,7 @@ h4{
 
 }
 
-/*<!--***************This menu bar will be appera when the Screen is less then < 600px   ************************-->*/
+/*<!--***************This menu bar will be appera when the Screen is less then < 600px  Start  ********************-->*/
 .smallMenuBarUl{
     list-style-type: none;
 }
@@ -196,7 +196,7 @@ h4{
     display: block;
     /*border: 1px solid green;*/
 }
-/*<!--***************This menu bar will be appera when the Screen is less then < 600px   ************************-->*/
+/*<!--***************This menu bar will be appera when the Screen is less then < 600px End   **********************-->*/
 
 .categoryTitle{
     color: #555;
