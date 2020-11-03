@@ -88,5 +88,14 @@ p{
 }
 
 .btn-Container{
-text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ff523d;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 28px;
+    float: left;
+
+
 }
