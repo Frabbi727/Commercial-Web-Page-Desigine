@@ -22,7 +22,7 @@ body{
 
 [class*='col-']{
     float: left;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .row:after{
@@ -32,7 +32,7 @@ body{
 }
 .container{
     height: auto;
-    width: 90%;
+    width: 100%;
     margin: auto;
 
 }
@@ -43,6 +43,103 @@ body{
 .content-height     {height: 500px;}
 .big-footer-height  {height: 250px;}
 .footer-height      {height: 30px; }
+
+@media screen and (max-width: 480px) {
+    [class*='col-']{
+        width: 100%;
+    }
+    .visibilityUltraSmall{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+    .col-s1      {width: 8.33% }
+    .col-s2      {width: 16.66%}
+    .col-s3      {width: 25%   }
+    .col-s4      {width: 33.33%}
+    .col-s5      {width: 41.66%}
+    .col-s6      {width: 50%   }
+    .col-s7      {width: 58.33%}
+    .col-s8      {width: 66.66%}
+    .col-s9      {width: 75%   }
+    .col-s10     {width: 83.33%}
+    .col-s11     {width: 91.66%}
+    .col-s12     {width: 100%  }
+
+    .test{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row{
+        position: relative;
+    }
+
+    .visibilityforSmall{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 780px){
+    .col-m1      {width: 8.33% }
+    .col-m2      {width: 16.66%}
+    .col-m3      {width: 25%   }
+    .col-m4      {width: 33.33%}
+    .col-m5      {width: 41.66%}
+    .col-m6      {width: 50%   }
+    .col-m7      {width: 58.33%}
+    .col-m8      {width: 66.66%}
+    .col-m9      {width: 75%   }
+    .col-m10     {width: 83.33%}
+    .col-m11     {width: 91.66%}
+    .col-m12     {width: 100%  }
+
+    .test{
+
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row{
+        position: relative;
+    }
+    .visibilityformediuam{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 780px) {
+    .col-l1      {width: 8.33% }
+    .col-i2      {width: 16.66%}
+    .col-l3      {width: 25%   }
+    .col-l4      {width: 33.33%}
+    .col-l5      {width: 41.66%}
+    .col-l6      {width: 50%   }
+    .col-l7      {width: 58.33%}
+    .col-l8      {width: 66.66%}
+    .col-l9      {width: 75%   }
+    .col-l10     {width: 83.33%}
+    .col-l11     {width: 91.66%}
+    .col-l12     {width: 100%  }
+
+    .test{
+
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row{
+        position: relative;
+    }
+    .invisibilityforExtraLarge{
+        display: none;
+    }
+
+}
+
+
 
 p{
     color: #555;
@@ -70,7 +167,7 @@ h4{
 
 .main-li{
     float: right;
-    width: 120px;
+    width: 16.66%;
 }
 
 .main-li a {
@@ -84,6 +181,22 @@ h4{
     /*border: 1px solid green;*/
 
 }
+
+/*<!--***************This menu bar will be appera when the Screen is less then < 600px   ************************-->*/
+.smallMenuBarUl{
+    list-style-type: none;
+}
+.smallMenuBar {
+    text-decoration: none;
+    display: block;
+    height: 25px;
+
+    color: #555;
+
+    display: block;
+    /*border: 1px solid green;*/
+}
+/*<!--***************This menu bar will be appera when the Screen is less then < 600px   ************************-->*/
 
 .categoryTitle{
     color: #555;
