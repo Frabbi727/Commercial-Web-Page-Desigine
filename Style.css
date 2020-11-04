@@ -19,7 +19,7 @@ body{
 .col-10         {width: 83.33%;       }
 .col-11         {width: 91.66%;       }
 .col-12         {width:   100%;       }
-
+/***************Remove Border From Here**************************/
 [class*='col-']{
     float: left;
     /*border: 1px solid red;*/
@@ -42,7 +42,8 @@ body{
 .slider1-height     {height: 400px;}
 .content-height     {height: 500px;}
 .big-footer-height  {height: 250px;}
-.footer-height      {height: 30px; }
+.footer-height      {height: 150px; }
+.offer-Product      {height: 600px}
 
 @media screen and (max-width: 480px) {
     [class*='col-']{
@@ -143,7 +144,7 @@ body{
 
 p{
     color: #555;
-    /*text-align: justify;*/
+    text-align: justify;
 }
 h4{
     color: #555;
@@ -330,7 +331,72 @@ h4{
     color: #ff523d;
 }
 
-
-
-
 /*----------------------------------------Second Section Cetagory and Features Product End----------------------------*/
+
+/***********************Offer Product Section Start********************************************************************/
+.section3a{
+    background: radial-gradient(#fff,#ffd6d6);
+    padding-top: 25px;
+    margin-top: 20px;
+}
+.imagePositionExclusive{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+.textAllignment{
+    margin-top: 08%;
+    padding: 5px;
+
+}
+.HtagForOffer{
+
+    font-size: 40px;
+}
+
+
+/*******************************Offer Product Section End**************************************************************/
+
+/******************Comment Section work here Start*********************************************************************/
+.textAllinforComment{
+    text-align: center;
+}
+.imageCommentResizing{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.imageFrame{
+   margin-left: 40%;
+}
+.boxSizing{
+    transition: .5s;
+    box-shadow: 2px 2px 2px 2px #555;
+    border-radius: 20px;
+    padding: 5px;
+}
+.boxSizing:hover{
+    transform: translateY(-5px);
+}
+
+/******************Comment Section work here End***********************************************************************/
+
+
+/******************************************barnd Section Work Start Here***********************************************/
+.logoBrand{
+margin: 100px auto;
+    padding-left: 40px;
+}
+.imageGray{
+    filter: grayscale(100%);
+}
+.imageGray:hover{
+    filter: grayscale(0);
+}
+
+.section4a{
+    margin-top: 100px;
+}
+
+/******************************************barnd Section Work End Here*************************************************/
