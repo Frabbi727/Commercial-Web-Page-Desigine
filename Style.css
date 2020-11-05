@@ -37,6 +37,19 @@ body{
 
 }
 
+.container2{
+    height: auto;
+    width: 72%;
+    margin: auto;
+}
+
+.container3{
+    height: auto;
+    width: 70%;
+    margin: auto;
+    padding: 0px;
+}
+
 
 .menu-height        {height:  40px;}
 .slider1-height     {height: 400px;}
@@ -44,6 +57,7 @@ body{
 .big-footer-height  {height: 250px;}
 .footer-height      {height: 150px; }
 .offer-Product      {height: 600px}
+.end-address-footer      {height: 400px}
 
 @media screen and (max-width: 480px) {
     [class*='col-']{
@@ -183,7 +197,7 @@ h4{
 
 }
 
-/*<!--***************This menu bar will be appera when the Screen is less then < 600px  Start  ********************-->*/
+/*<!--***************This menu bar will be appear when the Screen is less then < 600px  Start  ********************-->*/
 .smallMenuBarUl{
     list-style-type: none;
 }
@@ -197,7 +211,7 @@ h4{
     display: block;
     /*border: 1px solid green;*/
 }
-/*<!--***************This menu bar will be appera when the Screen is less then < 600px End   **********************-->*/
+/*<!--***************This menu bar will be appear when the Screen is less then < 600px End   **********************-->*/
 
 .categoryTitle{
     color: #555;
@@ -257,7 +271,7 @@ h4{
 .cartIconImage{
     height: 30px;
     width: 30px;
-    float: right;
+
 }
 /*----------------------------------------first section for headin and Container END---------------------------- -----*/
 
@@ -383,10 +397,10 @@ h4{
 /******************Comment Section work here End***********************************************************************/
 
 
-/******************************************barnd Section Work Start Here***********************************************/
+/******************************************Brand Section Work Start Here***********************************************/
 .logoBrand{
 margin: 100px auto;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 .imageGray{
     filter: grayscale(100%);
@@ -399,4 +413,33 @@ margin: 100px auto;
     margin-top: 100px;
 }
 
-/******************************************barnd Section Work End Here*************************************************/
+/******************************************Brand Section Work End Here*************************************************/
+
+/******************************************Footer Start Here***********************************************************/
+.footerContent{
+    padding: 5px;
+
+}
+.Ful{
+
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+.Fli{
+
+}
+.Flia{
+    text-decoration: none;
+    display: block;
+    height: 38px;
+    text-align: center;
+    color: #555;
+    padding-right: 20px;
+
+    display: block;
+}
+
+
+/******************************************Footer ENDS Here*************************************************/
